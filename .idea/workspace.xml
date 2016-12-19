@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01769e2-5a6d-44fa-acb7-2469688d3e7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise_20.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise_21.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exercise_20.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise_20.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise_20.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercise_21.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise_21.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -68,6 +78,7 @@
         <option value="$PROJECT_DIR$/exercise_18.py" />
         <option value="$PROJECT_DIR$/exercise_19.py" />
         <option value="$PROJECT_DIR$/exercise_20.py" />
+        <option value="$PROJECT_DIR$/exercise_21.py" />
       </list>
     </option>
   </component>
@@ -113,24 +124,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.exercise_20">
-    <configuration default="false" name="exercise_16" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_practise" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_16.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.exercise_21">
     <configuration default="false" name="exercise_17" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,6 +189,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_practise" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exercise_21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_practise" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_21.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -460,19 +471,19 @@
       <item index="4" class="java.lang.String" itemvalue="Python.exercise_6" />
       <item index="5" class="java.lang.String" itemvalue="Python.exercise_9" />
       <item index="6" class="java.lang.String" itemvalue="Python.exercise_10" />
-      <item index="7" class="java.lang.String" itemvalue="Python.exercise_16" />
-      <item index="8" class="java.lang.String" itemvalue="Python.exercise_17" />
-      <item index="9" class="java.lang.String" itemvalue="Python.exercise_18" />
-      <item index="10" class="java.lang.String" itemvalue="Python.exercise_19" />
-      <item index="11" class="java.lang.String" itemvalue="Python.exercise_20" />
+      <item index="7" class="java.lang.String" itemvalue="Python.exercise_17" />
+      <item index="8" class="java.lang.String" itemvalue="Python.exercise_18" />
+      <item index="9" class="java.lang.String" itemvalue="Python.exercise_19" />
+      <item index="10" class="java.lang.String" itemvalue="Python.exercise_20" />
+      <item index="11" class="java.lang.String" itemvalue="Python.exercise_21" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.exercise_20" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exercise_19" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exercise_18" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exercise_17" />
-        <item index="4" class="java.lang.String" itemvalue="Python.exercise_16" />
+        <item index="0" class="java.lang.String" itemvalue="Python.exercise_21" />
+        <item index="1" class="java.lang.String" itemvalue="Python.exercise_20" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exercise_19" />
+        <item index="3" class="java.lang.String" itemvalue="Python.exercise_18" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exercise_17" />
       </list>
     </recent_temporary>
   </component>
@@ -700,8 +711,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise_20.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_21.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
