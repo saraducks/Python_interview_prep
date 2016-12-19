@@ -1,0 +1,3 @@
+This is the simple file
+I will open this text file using the python file read and write
+Hope it will work
