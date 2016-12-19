@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01769e2-5a6d-44fa-acb7-2469688d3e7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise_7.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercise_8.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise_6.py" afterPath="$PROJECT_DIR$/exercise_6.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="exercise_6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise_6.py">
+      <file leaf-file-name="exercise_8.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise_7.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercise_7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -61,6 +50,7 @@
         <option value="$PROJECT_DIR$/exercise_5.py" />
         <option value="$PROJECT_DIR$/exercise_6.py" />
         <option value="$PROJECT_DIR$/exercise_7.py" />
+        <option value="$PROJECT_DIR$/exercise_8.py" />
       </list>
     </option>
   </component>
@@ -106,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.exercise_7">
+  <component name="RunManager" selected="Python.exercise_8">
     <configuration default="false" name="exercise_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,6 +127,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_practise" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="exercise_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_practise" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -360,7 +367,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.exercise_1" />
       <item index="1" class="java.lang.String" itemvalue="Python.exercise_2" />
       <item index="2" class="java.lang.String" itemvalue="Python.exercise_3" />
@@ -368,11 +375,13 @@
       <item index="4" class="java.lang.String" itemvalue="Python.exercise_5" />
       <item index="5" class="java.lang.String" itemvalue="Python.exercise_6" />
       <item index="6" class="java.lang.String" itemvalue="Python.exercise_7" />
+      <item index="7" class="java.lang.String" itemvalue="Python.exercise_8" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.exercise_7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exercise_4" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.exercise_8" />
+        <item index="1" class="java.lang.String" itemvalue="Python.exercise_7" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exercise_4" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +469,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -468,10 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise_7.py">
+    <entry file="file://$PROJECT_DIR$/exercise_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
