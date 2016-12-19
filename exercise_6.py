@@ -1,5 +1,5 @@
 string1 = "happy"
-string2 = "Life"                                #initialize strings 
+string2 = "Life"                                #initialize strings
 string3 = "I am doing python practise"
 concatenate_strings = string1 + string3
 s = "crazy test"
