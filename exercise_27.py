@@ -66,11 +66,11 @@ frank = Employee("Frank", 120000)
 ## frank pet is-a rover
 frank.pet = rover
 
-## flipper is-a Fish
+## flipper is-a Fish Instance
 flipper = Fish()
 
-## crouse is-a Salmon
+## crouse is-a Salmon Instance
 crouse = Salmon()
 
-## harry is-a Halibut
+## harry is-a Halibut Instance
 harry = Halibut()
