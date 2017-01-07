@@ -58,7 +58,7 @@ try:                                                       # it will call conver
         for snippet in snippets:
             phrase = phrases[snippet]
             question, answer = convert(snippet, phrase)
-            if sys.argv[1] == 'hello':
+            if sys.argv[0] == 'hello':
                 question, answer = answer, question
 
             print question
