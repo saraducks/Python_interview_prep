@@ -1,4 +1,6 @@
-
+'''
+Class having simple methods
+'''
 class BagsFighterClown(object):
 
     def bags(self):
