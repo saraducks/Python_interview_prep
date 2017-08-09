@@ -1,6 +1,7 @@
 from nose import *
 from nose.tools import assert_equal
-from exercise_29.skeleton.exer_29.game import Room
+
+from LPHW.exercise_29.skeleton.exer_29 import Room
 
 
 def test_room():
