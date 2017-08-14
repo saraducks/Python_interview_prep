@@ -14,14 +14,14 @@ class AVLtree:
             if curr_root.data > insert_node:
                 if curr_root.left_child == None:
                     curr_root.left_child = AVLtree(insert_node, node_factor=1,parent=curr_root)
-                    self.check_node_factor("left_child",curr_root.left_child)
+                    self.check_node_factor(curr_root.left_child)
                 else:
                     put_AVL_helper(curr_root.left_child, insert_node)
             else:
                 if curr_root.data < insert_node:
                     if curr_root.right_child == None:
                         curr_root.right_child = AVLtree(insert_node, node_factor=-1,parent=curr_root)
-                        self.check_node_factor("right_factor",root.right_child)
+                        self.check_node_factor(curr_root.right_child)
 
                     else:
                        put_AVL_helper( curr_root.right_child, insert_node)
@@ -30,7 +30,7 @@ class AVLtree:
     def check_node_factor(self, node):
         # check if the node is unbalanced, if it is unbalanced do update
         if node.node_factor > 1 or node.node_factor < -1:
-            self.rebalance(node)
+            self.rebalance_factor(node)
             pass
 
         if node.parent.left_child == node:
@@ -89,6 +89,31 @@ class AVLtree:
 
         node.node_factor = node.node_factor + 1 - min(new_root.node_factor, 0)
         new_root.node_factor = new_root.node_factor + 1 + max(node.node_factor, 0)
+
+    # refactor will call the appropritae rotation based on node factor
+    '''
+       rebalance_factor will do the rotation based on the node_factor value
+    '''
+    def rebalance_factor(self, node):
+        # right heavy
+        if node.node_factor < 0:
+            # check if the node_factor is greater than 0, if greater than 0, do right rotation and then left rotation
+            if node.right_child.node_factor > 0:
+                self.rotate_right(node.right_child)
+                self.rotate_left(node)
+            else:
+                self.rotate_left(node)
+
+        #left heavy
+        elif node.node_factor > 0:
+            # if the node_factor is less than 0, do the left rotation and perform the right rotation
+            if node.left_child.node_factor < 0:
+                self.rotate_left(node.left_child)
+                self.rotate_right(node)
+            else:
+                self.rotate_right(node)
+
+
 
 
 
