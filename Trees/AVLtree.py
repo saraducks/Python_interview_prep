@@ -2,12 +2,13 @@
 
 class AVLtree:
     # node_factor should be in the range of -1,0,1
-    def __init__(self, data=-1, node_factor=0, left=None, right=None, parent=None):
+    def __init__(self, data=-1, node_factor=0, left=None, right=None, parent=None, root= None):
         self.data = data
         self.node_factor = node_factor
         self.left_child = left
         self.right_child = right
         self.parent = parent
+        self.root = root
 
     def isroot(self):
         return not self.parent
@@ -26,7 +27,6 @@ class AVLtree:
                     if curr_root.right_child == None:
                         curr_root.right_child = AVLtree(insert_node, parent=curr_root)
                         self.check_node_factor(curr_root.right_child)
-
                     else:
                        put_AVL_helper(curr_root.right_child, insert_node)
         put_AVL_helper(self, insert_node)
@@ -35,8 +35,8 @@ class AVLtree:
     def check_node_factor(self, node):
         # check if the node is unbalanced, if it is unbalanced do update
         if node.node_factor > 1 or node.node_factor < -1:
-            self.rebalance_factor(node)
-            return
+             self.rebalance_factor(node)
+             return
 
         if node.parent != None:
             if node.parent and node.parent.left_child == node:
@@ -103,6 +103,7 @@ class AVLtree:
 
         node.node_factor = node.node_factor -1 - min(new_root.node_factor, 0)
         new_root.node_factor = new_root.node_factor -1 + max(node.node_factor, 0)
+        return new_root.data, new_root.node_factor
 
     # refactor will call the appropritae rotation based on node factor
     '''
@@ -116,37 +117,36 @@ class AVLtree:
                 self.rotate_right(node.right_child)
                 self.rotate_left(node)
             else:
-                self.rotate_left(node)
+                 self.rotate_left(node)
 
         #left heavy
         elif node.node_factor > 0:
             # if the node_factor is less than 0, do the left rotation and perform the right rotation
             if node.left_child.node_factor < 0:
                 self.rotate_left(node.left_child)
-                self.rotate_right(node)
+                res = self.rotate_right(node)
+                print res
             else:
-                self.rotate_right(node)
+                 res = self.rotate_right(node)
+                 print res
 
-    # def print_AVL(self):
-    #     if self.data != -1:
-    #         print "root", self.data
-    #         if self.left_child != None:
-    #             print "left_child", self.left_child.data
-    #             self.left_child.print_AVL()
-    #         if self.right_child != None:
-    #             print "right_child", self.right_child.data
-    #             self.right_child.print_AVL()
+    def print_AVL(self):
+        if self.data != -1:
+            print "root", self.data
+            if self.left_child != None:
+                print "left_child", self.left_child.data
+                self.left_child.print_AVL()
+            if self.right_child != None:
+                print "right_child", self.right_child.data
+                self.right_child.print_AVL()
 
 
 
-A = AVLtree(12, node_factor=0)
-r = A.put(10)
+A = AVLtree(12, node_factor=0, root=12)
+A.put(10)
 A.put(5)
 A.put(11)
 A.put(3)
 A.put(8)
 A.put(15)
-
-
-
 
