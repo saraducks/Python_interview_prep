@@ -26,8 +26,12 @@ def find_largestsum_seq(input_array):
     return res
 
 temp_arr = [-2, -3, 4, -1, -2, 1, 5, -3]
+import timeit
+start = timeit.timeit()
 get_result = find_largestsum_seq(temp_arr)
-
+end = timeit.timeit()
+total_time = end-start
+print("total_time taken ", total_time)
 # now iterate the res and based on the last index array value return the result
 ret_maxmimum = [0,0,0]
 for k in range(0, len(get_result)):
@@ -36,3 +40,20 @@ for k in range(0, len(get_result)):
         ret_maxmimum = get_result[k][-1]
 
 print(ret_maxmimum)
+
+
+# without dynamic programming, just returns the max sum so far
+def find_longest_seq1(input_array):
+    max_so_far = 0
+    curr_max = 0
+    for i in range(0, len(input_array)):
+        curr_max = max(input_array[i], curr_max+input_array[i])
+        max_so_far = max(max_so_far, curr_max)
+    return max_so_far
+
+temp_arr = [-2, -3, 4, -1, -2, 1, 5, -3]
+start1 = timeit.timeit()
+res = find_longest_seq1(temp_arr)
+end1 = timeit.timeit()
+print("Total time without dp", end1-start1)
+print(res)
