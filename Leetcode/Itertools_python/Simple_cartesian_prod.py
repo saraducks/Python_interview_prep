@@ -30,7 +30,6 @@ list_A = map(int, input().split())
 list_B = map(int, input().split())
 
 
-
 result_prod = (list(product(list_A, list_B)))
 
 for i in range(0, len(result_prod)):
